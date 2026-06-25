@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% if page.meta.cdate %}
+  <div class="article-meta">
+    <em>created:</em> {{ page.meta.cdate }}
+    {% if page.meta.mdate %}
+    <br><em>modified:</em>
+    {% if page.meta.mdate is sequence %}
+      {{ page.meta.mdate | last }}
+    {% else %}
+      {{ page.meta.mdate }}
+    {% endif %}
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {{ super() }}
+
+{% endblock %}
