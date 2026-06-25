@@ -16,6 +16,58 @@ mdate:
 
 This repo started as a playground on `zensical` and how it can become the replacement for `Material for MkDocs` after the latter hits end of life somewhere this year.
 
+## Adding upstream
+
+> 2026-06-25-Thu 12:45 created the remote to stop playing for now
+
+```sh
+12:40:48 /d/play-zensical (main) $ which gh
+/d/_system/ProgramFiles/GitHub CLI/gh
+
+12:40:59 /d/play-zensical (main) $ gh auth status
+github.com
+  ✓ Logged in to github.com account gh-ka (keyring)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: gho_************************************
+  - Token scopes: 'gist', 'read:org', 'repo', 'workflow'
+
+12:41:15 /d/play-zensical (main) $  gh repo create zen-notes --private --source=. --remote=upstream --
+description 'experiment with zensical for serving markdown notes'
+✓ Created repository gh-ka/zen-notes on github.com
+  https://github.com/gh-ka/zen-notes
+✓ Added remote https://github.com/gh-ka/zen-notes.git
+
+12:43:24 /d/play-zensical (main) $ gh repo list
+
+Showing 19 of 19 repositories in @gh-ka
+
+NAME                             DESCRIPTION                      INFO          UPDATED
+gh-ka/zen-notes                  experiment with zensical for...  private       less than a minute ago
+gh-ka/md-notes                   markdown notes                   private       about 12 days ago
+gh-ka/bash_home                                                   private       about 28 days ago
+gh-ka/agent-game                                                  private       about 1 month ago
+gh-ka/inference                                                   public        about 1 month ago
+gh-ka/cooking                                                     private       about 8 months ago
+gh-ka/py_gui                     comparing python gui frameworks  private       about 8 months ago
+gh-ka/notes                      Hugo site                        private       about 9 months ago
+gh-ka/pyutils                                                     public        about 9 months ago
+gh-ka/book-lnx-cmd               track book reading               private       about 9 months ago
+gh-ka/pytracer                   A lightweight Python tracing...  public        about 9 months ago
+gh-ka/py_dunders                 A runnable 'reference-playgr...  public        about 9 months ago
+gh-ka/coding-interview-unive...  A complete computer science ...  public, fork  about 10 months ago
+gh-ka/lrn-py-fastapi                                              private       about 1 year ago
+gh-ka/whatnot                    Collection of writings - not...  public        about 1 year ago
+gh-ka/refcard-org-beamer         Org Beamer reference card        public, fork  about 1 year ago
+gh-ka/yt-get-comments            Simple script for downloadin...  public, fork  about 3 years ago
+gh-ka/pythonaday_parsing         Forked following yt video se...  public, fork  about 4 years ago
+gh-ka/dot-emacs-d                                                 public        about 5 years ago
+
+12:43:32 /d/play-zensical (main) $ git rv
+upstream        https://github.com/gh-ka/zen-notes.git (fetch)
+upstream        https://github.com/gh-ka/zen-notes.git (push)
+```
+
 ## Basics
 
 Started following the docs and quickly created the basic new site.
