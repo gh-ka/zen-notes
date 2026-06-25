@@ -7,7 +7,7 @@
 site_name = "K-Notes"
 site_description = "Keeping Track"
 site_author = "gh-ka"
-site_url = "https://www.example.com/" #TODO
+site_url = "https://gh-ka.github.io/zen-notes/"
 copyright = "Copyright &copy; 2026 gh-ka"
 
 # path to all the contents
