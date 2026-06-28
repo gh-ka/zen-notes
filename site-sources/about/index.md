@@ -1,5 +1,5 @@
 ---
-title: About
+title: About This Site
 description: 
 icon: 
 status: 
@@ -12,6 +12,6 @@ mdate:
     - 2026-06-25-Thu 10:22
 ---
 
-# About
+# About This Site
 
-For now, here I have [notes about how this site was created](./site.md) with [`markdown`](./stack-markdown.md) and [`zensical`](./stack-zensical.md)!
+For now, here I have [notes about how this site was created](./site-stack.md) with [`markdown`](./markdown/index.md) and [`zensical`](./stack-zensical.md)!

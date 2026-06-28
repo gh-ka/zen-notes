@@ -13,8 +13,20 @@ copyright = "Copyright &copy; 2026 gh-ka"
 # path to all the contents
 docs_dir = "site-sources"
 
-extra_css = ["_custom/extra.css"] # relative to docs_dir
-#extra_javascript = ["javascripts/extra.js"]  # #TODO relative to ?
+extra_javascript = [
+  # math -  katex
+  "_custom/js/katex.js", # relative to docs_dir
+  "https://unpkg.com/katex@0/dist/katex.min.js",
+  "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"
+]
+
+extra_css = [
+  # math -  katex
+  "https://unpkg.com/katex@0/dist/katex.min.css",
+
+  # dates - relative to docs_dir
+  "_custom/css/extra.css" # dates - relative to docs_dir
+]
 
 # ----------------------------------------------------------------------------
 # Theme options

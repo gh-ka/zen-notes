@@ -19,6 +19,6 @@ No much news here, this was created as a test.
 
 You can see:
 
-1. Guides on [`zensical`](./about/stack-zensical.md) and [`markdown`](./about/stack-markdown.md)
-1. [Note](./about/site.md) summarizing the experience
+1. Guides on [`zensical`](./about/stack-zensical.md) and [`markdown`](./about/markdown/index.md)
+1. [Note](./about/site-stack.md) summarizing the experience
 1. Additional [notes](./notes/index.md) on two days spent on this repo; these are created mostly to simulate the blog-like entries

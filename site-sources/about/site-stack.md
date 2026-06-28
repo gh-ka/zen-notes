@@ -1,5 +1,5 @@
 ---
-title: This Repo and Site
+title: The Tech Stack
 description: 
 icon: 
 status: 
@@ -13,11 +13,15 @@ mdate:
   - 2026-06-28-Sun 09:57
 ---
 
-# This repo/site
+# The Tech Stack and this Repo Evolution
 
 This repo started as a playground on `zensical` and how it can become the replacement for `Material for MkDocs` after the latter hits end of life somewhere this year.
 
 ## Change Log
+
+### 2026-06-28-Sun 15:15
+
+- added KaTeX support and [math examples](./markdown/2-md-math.md)
 
 ### 2026-06-28-Sun 09:57
 
