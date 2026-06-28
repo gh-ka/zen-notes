@@ -10,11 +10,18 @@ tags:
 cdate: 2026-06-23-Tue 22:38
 mdate:
   - 2026-06-25-Thu 12:08
+  - 2026-06-28-Sun 09:57
 ---
 
 # This repo/site
 
 This repo started as a playground on `zensical` and how it can become the replacement for `Material for MkDocs` after the latter hits end of life somewhere this year.
+
+## Change Log
+
+### 2026-06-28-Sun 09:57
+
+- Added example posts [y-z old blog](https://github.com/flyaway1217/ResearchBlog.git) to [here](../yz/index.md)
 
 ## Adding upstream
 
